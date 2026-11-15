@@ -29,21 +29,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
 
   const videoContainerRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [videoLoaded, setVideoLoaded] = useState(false);
-  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
 
-  // Defer video loading until initial paint and critical layout are complete
+  // Play video immediately on mount and pause when scrolled out of viewport
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShouldLoadVideo(true);
-    }, 1000);
+    if (videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
 
-    return () => clearTimeout(timer);
-  }, []);
-
-  // Pause video when scrolled out of viewport to preserve CPU/GPU & battery
-  useEffect(() => {
-    if (!videoContainerRef.current || !shouldLoadVideo) return;
+    if (!videoContainerRef.current) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -62,7 +55,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
 
     observer.observe(videoContainerRef.current);
     return () => observer.disconnect();
-  }, [shouldLoadVideo]);
+  }, []);
 
   // Typewriter Effect
   useEffect(() => {
@@ -206,41 +199,20 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               ref={videoContainerRef}
               className="relative w-full h-[360px] sm:h-[440px] md:h-[480px] lg:h-[510px] rounded-2xl sm:rounded-3xl overflow-hidden bg-neutral-950 ring-1 ring-black/5 dark:ring-white/10 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.18)] dark:shadow-[0_25px_60px_-15px_rgba(0,0,0,0.8)] group"
             >
-              {/* Responsive High-Priority Hero Poster (Preloaded & Instant Render) */}
-              <picture className="absolute inset-0 w-full h-full">
-                <source media="(max-width: 768px)" type="image/avif" srcSet="/assets/optimized/hero-poster-mobile.avif" />
-                <source media="(max-width: 768px)" type="image/webp" srcSet="/assets/optimized/hero-poster-mobile.webp" />
-                <source media="(max-width: 768px)" type="image/jpeg" srcSet="/assets/optimized/hero-poster-mobile.jpg" />
-                <source type="image/avif" srcSet="/assets/optimized/hero-poster-desktop.avif" />
-                <source type="image/webp" srcSet="/assets/optimized/hero-poster-desktop.webp" />
-                <img
-                  src="/assets/optimized/hero-poster-desktop.jpg"
-                  alt="Obsidian Auto Studio Precision Clean Room Detailing Bay"
-                  width={1400}
-                  height={933}
-                  loading="eager"
-                  decoding="sync"
-                  // @ts-expect-error - fetchpriority is standard HTML
-                  fetchpriority="high"
-                  className={`w-full h-full object-cover object-center transition-opacity duration-700 ${videoLoaded ? 'opacity-0' : 'opacity-100'}`}
-                />
-              </picture>
-
-              {/* Deferred Non-Blocking Video Playback */}
-              {shouldLoadVideo && (
-                <video
-                  ref={videoRef}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  preload="none"
-                  onCanPlay={() => setVideoLoaded(true)}
-                  className={`w-full h-full object-cover object-center group-hover:scale-102 transition-all duration-700 ease-out ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
-                >
-                  <source src="/assets/hero-video-1.mp4" type="video/mp4" />
-                </video>
-              )}
+              <video
+                ref={videoRef}
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="auto"
+                poster="/assets/hero-video-poster.jpg"
+                className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700 ease-out"
+              >
+                <source src="/assets/hero-video-desktop.mp4" type="video/mp4" media="(min-width: 769px)" />
+                <source src="/assets/hero-video-mobile.mp4" type="video/mp4" media="(max-width: 768px)" />
+                <source src="/assets/hero-video-1.mp4" type="video/mp4" />
+              </video>
             </div>
           </motion.div>
 
