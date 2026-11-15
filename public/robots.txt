@@ -1,0 +1,5 @@
+# Robots.txt for Obsidian Auto Studio Demonstration Showcase
+User-agent: *
+Allow: /
+
+Sitemap: https://obsidian-auto-studio.demo/sitemap.xml

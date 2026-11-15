@@ -1,0 +1,275 @@
+{
+  "/assets/service-interior.jpg": {
+    "base": "service-interior",
+    "width": 860,
+    "height": 573,
+    "aspectRatio": 1.5008726003490402,
+    "fallbackSrc": "/assets/optimized/service-interior-860.jpg",
+    "srcSetAvif": "/assets/optimized/service-interior-320.avif 320w, /assets/optimized/service-interior-480.avif 480w, /assets/optimized/service-interior-640.avif 640w, /assets/optimized/service-interior-768.avif 768w, /assets/optimized/service-interior-860.avif 860w",
+    "srcSetWebp": "/assets/optimized/service-interior-320.webp 320w, /assets/optimized/service-interior-480.webp 480w, /assets/optimized/service-interior-640.webp 640w, /assets/optimized/service-interior-768.webp 768w, /assets/optimized/service-interior-860.webp 860w",
+    "srcSetJpg": "/assets/optimized/service-interior-320.jpg 320w, /assets/optimized/service-interior-480.jpg 480w, /assets/optimized/service-interior-640.jpg 640w, /assets/optimized/service-interior-768.jpg 768w, /assets/optimized/service-interior-860.jpg 860w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      860
+    ]
+  },
+  "/assets/service-ceramic.jpg": {
+    "base": "service-ceramic",
+    "width": 1000,
+    "height": 563,
+    "aspectRatio": 1.7761989342806395,
+    "fallbackSrc": "/assets/optimized/service-ceramic-1000.jpg",
+    "srcSetAvif": "/assets/optimized/service-ceramic-320.avif 320w, /assets/optimized/service-ceramic-480.avif 480w, /assets/optimized/service-ceramic-640.avif 640w, /assets/optimized/service-ceramic-768.avif 768w, /assets/optimized/service-ceramic-1000.avif 1000w",
+    "srcSetWebp": "/assets/optimized/service-ceramic-320.webp 320w, /assets/optimized/service-ceramic-480.webp 480w, /assets/optimized/service-ceramic-640.webp 640w, /assets/optimized/service-ceramic-768.webp 768w, /assets/optimized/service-ceramic-1000.webp 1000w",
+    "srcSetJpg": "/assets/optimized/service-ceramic-320.jpg 320w, /assets/optimized/service-ceramic-480.jpg 480w, /assets/optimized/service-ceramic-640.jpg 640w, /assets/optimized/service-ceramic-768.jpg 768w, /assets/optimized/service-ceramic-1000.jpg 1000w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1000
+    ]
+  },
+  "/assets/user-ppf-install.jpg": {
+    "base": "user-ppf-install",
+    "width": 627,
+    "height": 350,
+    "aspectRatio": 1.7914285714285714,
+    "fallbackSrc": "/assets/optimized/user-ppf-install-627.jpg",
+    "srcSetAvif": "/assets/optimized/user-ppf-install-320.avif 320w, /assets/optimized/user-ppf-install-480.avif 480w, /assets/optimized/user-ppf-install-627.avif 627w",
+    "srcSetWebp": "/assets/optimized/user-ppf-install-320.webp 320w, /assets/optimized/user-ppf-install-480.webp 480w, /assets/optimized/user-ppf-install-627.webp 627w",
+    "srcSetJpg": "/assets/optimized/user-ppf-install-320.jpg 320w, /assets/optimized/user-ppf-install-480.jpg 480w, /assets/optimized/user-ppf-install-627.jpg 627w",
+    "widths": [
+      320,
+      480,
+      627
+    ]
+  },
+  "/assets/user-detailer-polishing.jpg": {
+    "base": "user-detailer-polishing",
+    "width": 500,
+    "height": 751,
+    "aspectRatio": 0.6657789613848203,
+    "fallbackSrc": "/assets/optimized/user-detailer-polishing-500.jpg",
+    "srcSetAvif": "/assets/optimized/user-detailer-polishing-320.avif 320w, /assets/optimized/user-detailer-polishing-480.avif 480w, /assets/optimized/user-detailer-polishing-500.avif 500w",
+    "srcSetWebp": "/assets/optimized/user-detailer-polishing-320.webp 320w, /assets/optimized/user-detailer-polishing-480.webp 480w, /assets/optimized/user-detailer-polishing-500.webp 500w",
+    "srcSetJpg": "/assets/optimized/user-detailer-polishing-320.jpg 320w, /assets/optimized/user-detailer-polishing-480.jpg 480w, /assets/optimized/user-detailer-polishing-500.jpg 500w",
+    "widths": [
+      320,
+      480,
+      500
+    ]
+  },
+  "/assets/user-wheel-wash.jpg": {
+    "base": "user-wheel-wash",
+    "width": 612,
+    "height": 408,
+    "aspectRatio": 1.5,
+    "fallbackSrc": "/assets/optimized/user-wheel-wash-612.jpg",
+    "srcSetAvif": "/assets/optimized/user-wheel-wash-320.avif 320w, /assets/optimized/user-wheel-wash-480.avif 480w, /assets/optimized/user-wheel-wash-612.avif 612w",
+    "srcSetWebp": "/assets/optimized/user-wheel-wash-320.webp 320w, /assets/optimized/user-wheel-wash-480.webp 480w, /assets/optimized/user-wheel-wash-612.webp 612w",
+    "srcSetJpg": "/assets/optimized/user-wheel-wash-320.jpg 320w, /assets/optimized/user-wheel-wash-480.jpg 480w, /assets/optimized/user-wheel-wash-612.jpg 612w",
+    "widths": [
+      320,
+      480,
+      612
+    ]
+  },
+  "/assets/hero-car-bright.jpg": {
+    "base": "hero-car-bright",
+    "width": 1400,
+    "height": 933,
+    "aspectRatio": 1.5005359056806002,
+    "fallbackSrc": "/assets/optimized/hero-car-bright-1400.jpg",
+    "srcSetAvif": "/assets/optimized/hero-car-bright-320.avif 320w, /assets/optimized/hero-car-bright-480.avif 480w, /assets/optimized/hero-car-bright-640.avif 640w, /assets/optimized/hero-car-bright-768.avif 768w, /assets/optimized/hero-car-bright-1024.avif 1024w, /assets/optimized/hero-car-bright-1400.avif 1400w",
+    "srcSetWebp": "/assets/optimized/hero-car-bright-320.webp 320w, /assets/optimized/hero-car-bright-480.webp 480w, /assets/optimized/hero-car-bright-640.webp 640w, /assets/optimized/hero-car-bright-768.webp 768w, /assets/optimized/hero-car-bright-1024.webp 1024w, /assets/optimized/hero-car-bright-1400.webp 1400w",
+    "srcSetJpg": "/assets/optimized/hero-car-bright-320.jpg 320w, /assets/optimized/hero-car-bright-480.jpg 480w, /assets/optimized/hero-car-bright-640.jpg 640w, /assets/optimized/hero-car-bright-768.jpg 768w, /assets/optimized/hero-car-bright-1024.jpg 1024w, /assets/optimized/hero-car-bright-1400.jpg 1400w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1400
+    ]
+  },
+  "/assets/hero-car.jpg": {
+    "base": "hero-car",
+    "width": 1440,
+    "height": 2049,
+    "aspectRatio": 0.7027818448023426,
+    "fallbackSrc": "/assets/optimized/hero-car-1440.jpg",
+    "srcSetAvif": "/assets/optimized/hero-car-320.avif 320w, /assets/optimized/hero-car-480.avif 480w, /assets/optimized/hero-car-640.avif 640w, /assets/optimized/hero-car-768.avif 768w, /assets/optimized/hero-car-1024.avif 1024w, /assets/optimized/hero-car-1440.avif 1440w",
+    "srcSetWebp": "/assets/optimized/hero-car-320.webp 320w, /assets/optimized/hero-car-480.webp 480w, /assets/optimized/hero-car-640.webp 640w, /assets/optimized/hero-car-768.webp 768w, /assets/optimized/hero-car-1024.webp 1024w, /assets/optimized/hero-car-1440.webp 1440w",
+    "srcSetJpg": "/assets/optimized/hero-car-320.jpg 320w, /assets/optimized/hero-car-480.jpg 480w, /assets/optimized/hero-car-640.jpg 640w, /assets/optimized/hero-car-768.jpg 768w, /assets/optimized/hero-car-1024.jpg 1024w, /assets/optimized/hero-car-1440.jpg 1440w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1440
+    ]
+  },
+  "/assets/about-detailer.jpg": {
+    "base": "about-detailer",
+    "width": 1200,
+    "height": 800,
+    "aspectRatio": 1.5,
+    "fallbackSrc": "/assets/optimized/about-detailer-1200.jpg",
+    "srcSetAvif": "/assets/optimized/about-detailer-320.avif 320w, /assets/optimized/about-detailer-480.avif 480w, /assets/optimized/about-detailer-640.avif 640w, /assets/optimized/about-detailer-768.avif 768w, /assets/optimized/about-detailer-1024.avif 1024w, /assets/optimized/about-detailer-1200.avif 1200w",
+    "srcSetWebp": "/assets/optimized/about-detailer-320.webp 320w, /assets/optimized/about-detailer-480.webp 480w, /assets/optimized/about-detailer-640.webp 640w, /assets/optimized/about-detailer-768.webp 768w, /assets/optimized/about-detailer-1024.webp 1024w, /assets/optimized/about-detailer-1200.webp 1200w",
+    "srcSetJpg": "/assets/optimized/about-detailer-320.jpg 320w, /assets/optimized/about-detailer-480.jpg 480w, /assets/optimized/about-detailer-640.jpg 640w, /assets/optimized/about-detailer-768.jpg 768w, /assets/optimized/about-detailer-1024.jpg 1024w, /assets/optimized/about-detailer-1200.jpg 1200w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1200
+    ]
+  },
+  "/assets/brand-studio.jpg": {
+    "base": "brand-studio",
+    "width": 1000,
+    "height": 667,
+    "aspectRatio": 1.4992503748125936,
+    "fallbackSrc": "/assets/optimized/brand-studio-1000.jpg",
+    "srcSetAvif": "/assets/optimized/brand-studio-320.avif 320w, /assets/optimized/brand-studio-480.avif 480w, /assets/optimized/brand-studio-640.avif 640w, /assets/optimized/brand-studio-768.avif 768w, /assets/optimized/brand-studio-1000.avif 1000w",
+    "srcSetWebp": "/assets/optimized/brand-studio-320.webp 320w, /assets/optimized/brand-studio-480.webp 480w, /assets/optimized/brand-studio-640.webp 640w, /assets/optimized/brand-studio-768.webp 768w, /assets/optimized/brand-studio-1000.webp 1000w",
+    "srcSetJpg": "/assets/optimized/brand-studio-320.jpg 320w, /assets/optimized/brand-studio-480.jpg 480w, /assets/optimized/brand-studio-640.jpg 640w, /assets/optimized/brand-studio-768.jpg 768w, /assets/optimized/brand-studio-1000.jpg 1000w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1000
+    ]
+  },
+  "/assets/porsche-dirty-before.jpg": {
+    "base": "porsche-dirty-before",
+    "width": 1376,
+    "height": 768,
+    "aspectRatio": 1.7916666666666667,
+    "fallbackSrc": "/assets/optimized/porsche-dirty-before-1376.jpg",
+    "srcSetAvif": "/assets/optimized/porsche-dirty-before-320.avif 320w, /assets/optimized/porsche-dirty-before-480.avif 480w, /assets/optimized/porsche-dirty-before-640.avif 640w, /assets/optimized/porsche-dirty-before-768.avif 768w, /assets/optimized/porsche-dirty-before-1024.avif 1024w, /assets/optimized/porsche-dirty-before-1376.avif 1376w",
+    "srcSetWebp": "/assets/optimized/porsche-dirty-before-320.webp 320w, /assets/optimized/porsche-dirty-before-480.webp 480w, /assets/optimized/porsche-dirty-before-640.webp 640w, /assets/optimized/porsche-dirty-before-768.webp 768w, /assets/optimized/porsche-dirty-before-1024.webp 1024w, /assets/optimized/porsche-dirty-before-1376.webp 1376w",
+    "srcSetJpg": "/assets/optimized/porsche-dirty-before-320.jpg 320w, /assets/optimized/porsche-dirty-before-480.jpg 480w, /assets/optimized/porsche-dirty-before-640.jpg 640w, /assets/optimized/porsche-dirty-before-768.jpg 768w, /assets/optimized/porsche-dirty-before-1024.jpg 1024w, /assets/optimized/porsche-dirty-before-1376.jpg 1376w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1376
+    ]
+  },
+  "/assets/porsche-clean-after.jpg": {
+    "base": "porsche-clean-after",
+    "width": 1376,
+    "height": 768,
+    "aspectRatio": 1.7916666666666667,
+    "fallbackSrc": "/assets/optimized/porsche-clean-after-1376.jpg",
+    "srcSetAvif": "/assets/optimized/porsche-clean-after-320.avif 320w, /assets/optimized/porsche-clean-after-480.avif 480w, /assets/optimized/porsche-clean-after-640.avif 640w, /assets/optimized/porsche-clean-after-768.avif 768w, /assets/optimized/porsche-clean-after-1024.avif 1024w, /assets/optimized/porsche-clean-after-1376.avif 1376w",
+    "srcSetWebp": "/assets/optimized/porsche-clean-after-320.webp 320w, /assets/optimized/porsche-clean-after-480.webp 480w, /assets/optimized/porsche-clean-after-640.webp 640w, /assets/optimized/porsche-clean-after-768.webp 768w, /assets/optimized/porsche-clean-after-1024.webp 1024w, /assets/optimized/porsche-clean-after-1376.webp 1376w",
+    "srcSetJpg": "/assets/optimized/porsche-clean-after-320.jpg 320w, /assets/optimized/porsche-clean-after-480.jpg 480w, /assets/optimized/porsche-clean-after-640.jpg 640w, /assets/optimized/porsche-clean-after-768.jpg 768w, /assets/optimized/porsche-clean-after-1024.jpg 1024w, /assets/optimized/porsche-clean-after-1376.jpg 1376w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1376
+    ]
+  },
+  "/assets/gallery-porsche-bright.jpg": {
+    "base": "gallery-porsche-bright",
+    "width": 1400,
+    "height": 933,
+    "aspectRatio": 1.5005359056806002,
+    "fallbackSrc": "/assets/optimized/gallery-porsche-bright-1400.jpg",
+    "srcSetAvif": "/assets/optimized/gallery-porsche-bright-320.avif 320w, /assets/optimized/gallery-porsche-bright-480.avif 480w, /assets/optimized/gallery-porsche-bright-640.avif 640w, /assets/optimized/gallery-porsche-bright-768.avif 768w, /assets/optimized/gallery-porsche-bright-1024.avif 1024w, /assets/optimized/gallery-porsche-bright-1400.avif 1400w",
+    "srcSetWebp": "/assets/optimized/gallery-porsche-bright-320.webp 320w, /assets/optimized/gallery-porsche-bright-480.webp 480w, /assets/optimized/gallery-porsche-bright-640.webp 640w, /assets/optimized/gallery-porsche-bright-768.webp 768w, /assets/optimized/gallery-porsche-bright-1024.webp 1024w, /assets/optimized/gallery-porsche-bright-1400.webp 1400w",
+    "srcSetJpg": "/assets/optimized/gallery-porsche-bright-320.jpg 320w, /assets/optimized/gallery-porsche-bright-480.jpg 480w, /assets/optimized/gallery-porsche-bright-640.jpg 640w, /assets/optimized/gallery-porsche-bright-768.jpg 768w, /assets/optimized/gallery-porsche-bright-1024.jpg 1024w, /assets/optimized/gallery-porsche-bright-1400.jpg 1400w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1400
+    ]
+  },
+  "/assets/gallery-audi.jpg": {
+    "base": "gallery-audi",
+    "width": 1000,
+    "height": 668,
+    "aspectRatio": 1.4970059880239521,
+    "fallbackSrc": "/assets/optimized/gallery-audi-1000.jpg",
+    "srcSetAvif": "/assets/optimized/gallery-audi-320.avif 320w, /assets/optimized/gallery-audi-480.avif 480w, /assets/optimized/gallery-audi-640.avif 640w, /assets/optimized/gallery-audi-768.avif 768w, /assets/optimized/gallery-audi-1000.avif 1000w",
+    "srcSetWebp": "/assets/optimized/gallery-audi-320.webp 320w, /assets/optimized/gallery-audi-480.webp 480w, /assets/optimized/gallery-audi-640.webp 640w, /assets/optimized/gallery-audi-768.webp 768w, /assets/optimized/gallery-audi-1000.webp 1000w",
+    "srcSetJpg": "/assets/optimized/gallery-audi-320.jpg 320w, /assets/optimized/gallery-audi-480.jpg 480w, /assets/optimized/gallery-audi-640.jpg 640w, /assets/optimized/gallery-audi-768.jpg 768w, /assets/optimized/gallery-audi-1000.jpg 1000w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1000
+    ]
+  },
+  "/assets/gallery-amg.jpg": {
+    "base": "gallery-amg",
+    "width": 1000,
+    "height": 667,
+    "aspectRatio": 1.4992503748125936,
+    "fallbackSrc": "/assets/optimized/gallery-amg-1000.jpg",
+    "srcSetAvif": "/assets/optimized/gallery-amg-320.avif 320w, /assets/optimized/gallery-amg-480.avif 480w, /assets/optimized/gallery-amg-640.avif 640w, /assets/optimized/gallery-amg-768.avif 768w, /assets/optimized/gallery-amg-1000.avif 1000w",
+    "srcSetWebp": "/assets/optimized/gallery-amg-320.webp 320w, /assets/optimized/gallery-amg-480.webp 480w, /assets/optimized/gallery-amg-640.webp 640w, /assets/optimized/gallery-amg-768.webp 768w, /assets/optimized/gallery-amg-1000.webp 1000w",
+    "srcSetJpg": "/assets/optimized/gallery-amg-320.jpg 320w, /assets/optimized/gallery-amg-480.jpg 480w, /assets/optimized/gallery-amg-640.jpg 640w, /assets/optimized/gallery-amg-768.jpg 768w, /assets/optimized/gallery-amg-1000.jpg 1000w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1000
+    ]
+  },
+  "/assets/gallery-bmw.jpg": {
+    "base": "gallery-bmw",
+    "width": 1000,
+    "height": 1536,
+    "aspectRatio": 0.6510416666666666,
+    "fallbackSrc": "/assets/optimized/gallery-bmw-1000.jpg",
+    "srcSetAvif": "/assets/optimized/gallery-bmw-320.avif 320w, /assets/optimized/gallery-bmw-480.avif 480w, /assets/optimized/gallery-bmw-640.avif 640w, /assets/optimized/gallery-bmw-768.avif 768w, /assets/optimized/gallery-bmw-1000.avif 1000w",
+    "srcSetWebp": "/assets/optimized/gallery-bmw-320.webp 320w, /assets/optimized/gallery-bmw-480.webp 480w, /assets/optimized/gallery-bmw-640.webp 640w, /assets/optimized/gallery-bmw-768.webp 768w, /assets/optimized/gallery-bmw-1000.webp 1000w",
+    "srcSetJpg": "/assets/optimized/gallery-bmw-320.jpg 320w, /assets/optimized/gallery-bmw-480.jpg 480w, /assets/optimized/gallery-bmw-640.jpg 640w, /assets/optimized/gallery-bmw-768.jpg 768w, /assets/optimized/gallery-bmw-1000.jpg 1000w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1000
+    ]
+  },
+  "/assets/gallery-rangerover-bright.jpg": {
+    "base": "gallery-rangerover-bright",
+    "width": 1400,
+    "height": 2100,
+    "aspectRatio": 0.6666666666666666,
+    "fallbackSrc": "/assets/optimized/gallery-rangerover-bright-1400.jpg",
+    "srcSetAvif": "/assets/optimized/gallery-rangerover-bright-320.avif 320w, /assets/optimized/gallery-rangerover-bright-480.avif 480w, /assets/optimized/gallery-rangerover-bright-640.avif 640w, /assets/optimized/gallery-rangerover-bright-768.avif 768w, /assets/optimized/gallery-rangerover-bright-1024.avif 1024w, /assets/optimized/gallery-rangerover-bright-1400.avif 1400w",
+    "srcSetWebp": "/assets/optimized/gallery-rangerover-bright-320.webp 320w, /assets/optimized/gallery-rangerover-bright-480.webp 480w, /assets/optimized/gallery-rangerover-bright-640.webp 640w, /assets/optimized/gallery-rangerover-bright-768.webp 768w, /assets/optimized/gallery-rangerover-bright-1024.webp 1024w, /assets/optimized/gallery-rangerover-bright-1400.webp 1400w",
+    "srcSetJpg": "/assets/optimized/gallery-rangerover-bright-320.jpg 320w, /assets/optimized/gallery-rangerover-bright-480.jpg 480w, /assets/optimized/gallery-rangerover-bright-640.jpg 640w, /assets/optimized/gallery-rangerover-bright-768.jpg 768w, /assets/optimized/gallery-rangerover-bright-1024.jpg 1024w, /assets/optimized/gallery-rangerover-bright-1400.jpg 1400w",
+    "widths": [
+      320,
+      480,
+      640,
+      768,
+      1024,
+      1400
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/obsidian-emblem.png" />
+    <link rel="apple-touch-icon" href="/assets/obsidian-emblem.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="theme-color" content="#F4F1E9" />
+
+    <!-- SEO & Metadata -->
+    <title>OBSIDIAN AUTO STUDIO | Exceptional Automotive Detailing & Paint Protection</title>
+    <meta name="description" content="Obsidian Auto Studio is an elite automotive detailing house specializing in multi-stage paint correction, self-healing PPF, ceramic quartz coatings, and bespoke interior restoration." />
+    <meta name="keywords" content="automotive detailing, ceramic coating, paint protection film, PPF, paint correction, luxury car detailing, obsidian auto studio" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OBSIDIAN AUTO STUDIO | Every Detail. A Higher Standard." />
+    <meta property="og:description" content="Exceptional detailing and advanced paint protection, crafted to preserve the beauty of every vehicle." />
+    <meta property="og:image" content="/assets/hero-car-bright.jpg" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="OBSIDIAN AUTO STUDIO | Every Detail. A Higher Standard." />
+    <meta property="twitter:description" content="Exceptional detailing and advanced paint protection, crafted to preserve the beauty of every vehicle." />
+    <meta property="twitter:image" content="/assets/hero-car-bright.jpg" />
+
+    <!-- Theme Initialization Script to Prevent FOUC -->
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('obsidian_theme');
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches) || !theme) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.add('light');
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Preload Critical Hero Asset with fetchpriority="high" -->
+    <link rel="preload" as="image" href="/assets/optimized/hero-poster-mobile.webp" media="(max-width: 768px)" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/assets/optimized/hero-poster-desktop.webp" media="(min-width: 769px)" type="image/webp" fetchpriority="high" />
+
+    <!-- Google Fonts Preconnect & Stylesheet (Poppins & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (Schema.org LocalBusiness with editable placeholders) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoBodyShop",
+      "name": "Obsidian Auto Studio",
+      "image": "https://obsidian-auto-studio.demo/assets/hero-car-bright.jpg",
+      "description": "Bespoke automotive detailing, ceramic coating, self-healing paint protection film, and multi-stage paint correction for exotic and luxury marques.",
+      "telephone": "+1-800-627-4342",
+      "email": "concierge@obsidianauto.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "700 Apex Velocity Way, Suite 100",
+        "addressLocality": "Scottsdale",
+        "addressRegion": "AZ",
+        "postalCode": "85255",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.6267,
+        "longitude": -111.8988
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "09:00",
+          "closes": "16:00"
+        }
+      ],
+      "priceRange": "$$$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Cash, Credit Card, Wire Transfer"
+    }
+    </script>
+  </head>
+  <body class="bg-pearl text-graphite antialiased selection:bg-copper selection:text-white overflow-x-hidden font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
